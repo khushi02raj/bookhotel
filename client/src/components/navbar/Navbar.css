@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+.navbar{
+    background-color: #003580;
+}
+.navContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding-top: 20px;
+    color: white;
+}
+.logo{
+    color: white;
+    font-weight: bold;   
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navItems>button{
+    margin-left: 8px;
+}
+.navButton{
+    padding: 10px;
+    font-style: normal;
+    color: #003580;
+    font-weight: bold;
+}

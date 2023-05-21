@@ -1,0 +1,28 @@
+.featured{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    z-index: 1;
+}  
+.featuredItem{
+    position: relative;
+    color: #fff;
+    overflow: hidden;
+    height: 250px;
+}
+.featuredImg{
+    width: 100%;
+    height: 80%;
+}
+.featuredTitles{
+    position: absolute;
+    bottom: 80px;
+    left: 20px;
+    background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+    font-weight: bold;
+    font-size: small;
+}

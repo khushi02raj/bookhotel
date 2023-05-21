@@ -1,0 +1,97 @@
+.header{
+    background-color: #003580;
+    /* background: url('https://r-xx.bstatic.com/xdata/images/xphoto/2880x1116/208091804.jpg?k=94914d07b33a5650107203923da2a2c0343e87e4719d6370ffec26b1d04d2ade&o='); */
+    color:white;
+    padding: 30px;
+    opacity: 1;
+}
+.list{
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.item{
+    gap: 100px;
+}
+.item.active{
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 20px;
+}
+.text{
+    padding: 50px;
+}
+.text>p{
+    padding-top: 50px;
+    font-size: large;
+}
+.search{
+    margin-top: 3%;
+    height: 30px;
+    padding: 14px 0px;
+    background-color:#fff;
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid #febb02;
+    box-shadow: 0px 2px 8px 0px rgba(250, 248, 248, 0.274);
+    position: relative;
+    bottom: -55px;
+    
+}
+.searchItem{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(62, 60, 60);
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 2;
+} 
+.inputSearch{
+    border: none;
+    outline: none;
+}
+.headerButton{
+    background-color: #0071c2;
+    text-align: center;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: bold;
+   padding: 4px;
+}
+.date{
+    position: absolute;
+    top: 50px;
+}
+.optContainer{
+     position: absolute;
+     top: 60px;
+     width: 200px;
+     height:150px;
+     color: black;
+     margin-left: 50px;
+     background-color: white;
+     z-index: 2;
+     box-shadow: 14px 15px 29px -18px rgba(0,0,0,0.75);
+     -webkit-box-shadow: 14px 15px 29px -18px rgba(0,0,0,0.75);
+     -moz-box-shadow: 14px 15px 29px -18px rgba(0,0,0,0.75);
+}
+.optItem{
+    display: flex;
+    justify-content: space-between;  
+    text-align: center;
+    padding: 15px;
+   
+}  
+.optCounter{
+    color: #0071c2;
+    font-size: 20px;
+    border: none;
+    background-color: #fff;
+}
+.optCounter:disabled{
+    cursor: not-allowed;
+}

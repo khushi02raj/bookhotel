@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.wrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+}
+.left{
+    flex: 1;
+    background-color: #febb02;
+    margin-right: 10px;
+    padding: 20px;
+    height: max-content;
+
+}
+.right{
+    flex: 3;
+}
+.listSearch{
+    display: flex;
+    flex-direction: column;
+}
+.listIp{
+    padding: 10px;
+}
+.listIp>input{
+    height: 20px;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+}
+.listIp>span{
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+.headerIcon{
+    padding-left: 4px;
+}
